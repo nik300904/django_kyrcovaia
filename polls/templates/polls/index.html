@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+
+    <link rel="stylesheet" href="{% static 'polls/css/base.css' %}">
+    <title>Films</title>
+</head>
+<body>
+    <header class="header container">
+        <ul class="header__nav">
+            <li class="nav__item"><a class="nav__text" href="">Подобрать</a></li>
+            <li class="nav__item"><a class="nav__text" href="">Каталог</a></li>
+            <li class="nav__item"><a class="nav__text" href="">Случайный</a></li>
+        </ul>
+    </header>
+{% if latest_film_list %}
+    <div class="container">
+        <ul class="film__list">
+        {% for film in latest_film_list %}
+            <li class="list__item"><a class="list__text" href="{% url 'detail' film.id %}">{{ film.name }}</a>{% for choice in film.image_set.all %}<img class="banner_img" src="/media/{{ choice.image }}" alt="">{% endfor %}</li>
+
+        {% endfor %}
+        </ul>
+{% else %}
+        <p>No polls are available.</p>    
+{% endif %}
+    </div>
+</body>
+</html>
