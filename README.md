@@ -1,1 +1,3 @@
-# django_kyrcovaia
+# Сервис для подборки фильмов
+# Для запуска локального сервера напишите
+# python3 manage.py runserver
