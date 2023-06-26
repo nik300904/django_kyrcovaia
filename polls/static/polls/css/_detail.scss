@@ -15,10 +15,6 @@
     justify-content: space-between;
 }
 
-.detail__form-item {
-    
-}
-
 .detail__form-item-text {
     display: flex;
     flex-direction: column;
@@ -28,8 +24,22 @@
         display: flex;
         width: 100%;
         justify-content: space-between;
-        margin-bottom: 20px;
     }
+
+    > div:nth-child(5) {
+        display: flex;
+        > span {
+            margin-top: 30px;
+        }
+        > div > p {
+            font-family: 'Roboto', sans-serif;
+            font-size: 24px;
+            font-weight: 300;
+            margin-right: 50px;
+            text-align: center;
+        }
+    }
+
     > div {
         margin-left: 105px;
         > p {
@@ -58,4 +68,10 @@
     > div:last-child {
         margin-top: 170px;
     }
+}
+
+.banner_img {
+    max-height: 800px !important; 
+    object-fit: contain;
+    border-radius: 25px;
 }

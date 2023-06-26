@@ -1,0 +1,36 @@
+{% extends 'polls/base.html' %}
+
+{% block content %}
+<div class="container">
+    <form action="{% url 'result' %}" method="post">
+        {% csrf_token %}
+
+        {% for f in films %}
+        <label for="{{ f.id_for_label }}">{{ f.label }}: </label>
+        {{ f }}
+        {% endfor %}
+
+        <button type="submit">Поиск</button>
+    </form>
+
+</div>
+{% endblock %}
+
+{% if films %}
+    <div class="container">
+        <ul class="film__list">
+        {% for film in films %}
+            <li class="list__item">
+                <a class="list__text" href="{% url 'detail' film.id %}">{{ film.name }}</a>
+                {% for choice in film.image_set.all %}<img class="banner_img" src="/media/{{ choice.image }}" alt="">{% endfor %}
+                {% if film.rating > 7 %}
+                    <p class="good list__item-text">Рейтинг: {{ film.rating }}</p>
+                {% elif film.rating < 5 %}
+                    <p class="bad list__item-text">Рейтинг: {{ film.rating }}</p>
+                {% else %}
+                    <p class="medium list__item-text">Рейтинг: {{ film.rating }}</p>
+                {% endif %}
+            </li>
+        {% endfor %}
+        </ul>
+    {% endif %}

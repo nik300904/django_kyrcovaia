@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+
+    <link rel="stylesheet" href="{% static 'polls/css/base.css' %}">
+    <title>{{ title }}</title>
+</head>
+<body>
+    <header class="header container">
+        <ul class="header__nav">
+            <li class="nav__item"><a class="nav__text" href="/">Все фильмы</a></li>
+            <li class="nav__item"><a class="nav__text" href="/films/filter">Подбор</a></li>
+            <li class="nav__item"><a class="nav__text" href="/films/random">Случайный</a></li>
+            <li>
+                <form class="form__nav" action="{% url 'search' %}" method="get">
+                    <input class="input__nav" type="search" placeholder="Введите название фильма" name="name">
+                    <button class="input__btn" type="submit">Поиск</button>
+                </form>
+            </li>
+        </ul>
+    </header>
+    {% block content %}
+    {% endblock %}
+</body>
+</html>

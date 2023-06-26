@@ -1,0 +1,40 @@
+{% extends 'polls/base.html' %}
+
+{% block content %}
+    <div class="container">
+        <div class="container-position">
+            <h1 class="details-title">{{ films.name }}</h1>
+            <ul class="detail__form">
+            {% for choice in films.image_set.all %}
+                <li class="detail__form-item"><img class="banner_img" src="/media/{{ choice.image }}" alt=""></li>
+                <li class="detail__form-item-text">
+                    <div>
+                        <span>Жанры:</span>
+                        <p>
+                            {% for genre in films.genres.all %}
+                                    {% if skip != genre.genre %}
+                                        {{ genre.genre }}
+                                    {% endif %}
+                            {% endfor %}
+                        </p>
+                    </div>
+                    <div><span>Рейтинг:</span><p>{{ films.rating }}</p></div>
+                    <div><span>Дата выхода:</span><p>{{ films.release_film }}</p></div>
+                    <div><span>Режиссер:</span><p>{{ films.director.first_name }} {{ films.director.second_name }}</p></div>
+                    <div class="roles">
+                        <span>В главных ролях:</span>
+                        <div>
+                        {% for actor in films.actors.all %}
+                            {% if skip != actor.name %}
+                                <p>{{ actor.name }}</p>
+                            {% endif %}
+                        {% endfor %}
+                        </div>
+                    </div>
+                    <div><p><span>Описание:</span>{{ films.description }}</p></div>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+{% endblock %}

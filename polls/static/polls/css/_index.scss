@@ -15,14 +15,6 @@ a {
     text-decoration: none;
 }
 
-// body {
-//     background: black;
-// }
-
-// * {
-//     color: green;
-// }
-
 .container {
     max-width: 1440px;
     margin: 0 auto;
@@ -67,11 +59,12 @@ a {
     display: flex;
     max-width: 300px;
     padding: 30px;
-    // justify-content: ;
     flex-direction: column;
 }
 
 .banner_img {
+    min-height: 443px;
+    max-height: 443px !important;
     object-fit: contain;
     border-radius: 25px;
 }
@@ -87,4 +80,35 @@ a {
         color: grey;
     }
     margin-bottom: 20px;
+}
+
+.list__item-text {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 10px;
+}
+
+.good {
+    padding: 2px 0px;
+    background-color: #44944A;
+    color: white;
+    border-radius: 25px;
+}
+
+.medium {
+    padding: 2px 0px;
+    background-color: #A5A5A5;
+    color: white;
+    border-radius: 25px;
+}
+
+.bad {
+    padding: 2px 0px;
+    background-color: #9B2D30;
+    color: white;
+    border-radius: 25px;
+}
+
+#id_release_film {
+    required: None;
 }

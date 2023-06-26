@@ -1,0 +1,41 @@
+{% extends 'polls/base.html' %}
+
+{% block content %}
+<div class="container">
+    <form class="form__filter" action="{% url 'filter' %}" method="get">
+        {% for f in form %}
+            <label class="form__label" for="{{ f.id_for_label }}">{{ f.label }}: </label>
+<!--            {% if f.label == 'Country' or f.label == 'Genres' or f.label == 'Actors' %}-->
+<!--                    <select id="{{ f.id_for_label }}" class="form__select">-->
+<!--                {% for z in f %}-->
+<!--                            {{ z }}-->
+<!--                {% endfor %}-->
+<!--                    </select>-->
+<!--            {% else %}-->
+                {{ f }}
+<!--            {% endif %}-->
+        {% endfor %}
+
+        <button class="btn-form" type="submit">Поиск</button>
+        {{ films }}
+    </form>
+    {% if films %}
+        {{ asdadsad }}
+        <ul class="film__list">
+        {% for film in films %}
+            <li class="list__item">
+                <a class="list__text" href="{% url 'detail' film.id %}">{{ film.name }}</a>
+                {% for choice in film.image_set.all %}<img class="banner_img" src="/media/{{ choice.image }}" alt="">{% endfor %}
+                {% if film.rating > 7 %}
+                    <p class="good list__item-text">Рейтинг: {{ film.rating }}</p>
+                {% elif film.rating < 5 %}
+                    <p class="bad list__item-text">Рейтинг: {{ film.rating }}</p>
+                {% else %}
+                    <p class="medium list__item-text">Рейтинг: {{ film.rating }}</p>
+                {% endif %}
+            </li>
+        {% endfor %}
+        </ul>
+    {% endif %}
+    </div>
+{% endblock %}
