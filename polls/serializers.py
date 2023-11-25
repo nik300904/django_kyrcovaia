@@ -7,6 +7,11 @@ class FilmSerializer(serializers.ModelSerializer):
         model = Films
         fields = ('id', 'name', 'rating')
 
+class FilmGenreSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Films
+        fields = ('id', 'name', 'rating')
+
 class ActorSerializer(serializers.ModelSerializer):
     class Meta:
         model = Actor

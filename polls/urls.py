@@ -1,7 +1,7 @@
 from django.urls import path
 
 from . import views
-from .views import FilmIndexAPIView, ActorAPIView
+from .views import FilmIndexAPIView, ActorAPIView, FilmGenreAPIView, FilmViewSet
 
 urlpatterns = [
     path('', views.IndexView.as_view(), name='index'),
@@ -14,4 +14,6 @@ urlpatterns = [
     path('films/years/', views.FilterFilm.as_view(), name='year'),
     path('api/filmlist', FilmIndexAPIView.as_view()),
     path('api/actorlist', ActorAPIView.as_view()),
+    path('api/genre', FilmGenreAPIView.as_view()),
+    path('api/random/', FilmViewSet.as_view({'get': 'get_random_film'}), name='random-film'),
 ]

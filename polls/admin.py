@@ -1,11 +1,13 @@
 from django.contrib import admin
 from django.utils.safestring import mark_safe
+from import_export.admin import ExportMixin
 
 from .models import *
+from .resources import FilmsResource
 
 
 @admin.register(Films)
-class FilmsAdmin(admin.ModelAdmin):
+class FilmsAdmin(ExportMixin, admin.ModelAdmin):
     model = Films
     filter_horizontal = ['actors', 'country', 'genres']
     fieldsets = [
@@ -19,8 +21,8 @@ class FilmsAdmin(admin.ModelAdmin):
     list_display_links = ('name', 'director')
     list_filter = ['rating']
     search_fields = ['name']
-    readonly_fields = ('name', 'release_film' ,'director')
-
+    readonly_fields = ('name', 'release_film', 'director')
+    resource_class = FilmsResource
 
 class ImageAdmin(admin.ModelAdmin):
     raw_id_fields = ("film",)

@@ -8,7 +8,9 @@ from django.utils.decorators import method_decorator
 from django.views import generic
 from django.views.decorators.csrf import csrf_exempt
 import array
+from rest_framework.decorators import action
 
+from rest_framework.filters import SearchFilter
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from django.db.models import Q
@@ -16,10 +18,10 @@ from django.db.models import Q
 from .forms import SearchFilmForm
 from .models import *
 import random
+from django_filters import rest_framework as filters
 
-from rest_framework import generics
-
-from .serializers import ActorSerializer, FilmSerializer
+from rest_framework import generics, status, viewsets
+from .serializers import ActorSerializer, FilmSerializer, FilmGenreSerializer
 
 
 class GetGenreAndYear:
@@ -28,6 +30,7 @@ class GetGenreAndYear:
 
     def get_year(self):
         return Films.objects.values_list("release_film", flat=True).order_by("release_film")
+
 
 class FilterFilm(GetGenreAndYear, generic.ListView):
     context_object_name = "films"
@@ -51,15 +54,36 @@ class FilterFilm(GetGenreAndYear, generic.ListView):
 
         return queryset
 
+
+class FilmUrlFilter(filters.FilterSet):
+    genres = filters.CharFilter(field_name='genres__name', lookup_expr='exact')
+    genres__icontains = filters.CharFilter(field_name='genres__name', lookup_expr='icontains')
+
+    class Meta:
+        model = Films
+        fields = []
+
 class FilmIndexAPIView(generics.ListAPIView):
     queryset = Films.objects.all()
     serializer_class = FilmSerializer
+
+class FilmGenreAPIView(generics.ListAPIView):
+    serializer_class = FilmGenreSerializer
+
+    def get_queryset(self):
+        queryset = Films.objects.all()
+        genre_name = self.request.query_params.get("genres")
+
+        if genre_name is not None:
+            queryset = queryset.filter(genres__genre=genre_name)
+        return queryset
 
 class ActorAPIView(generics.ListAPIView):
     queryset = Actor.objects.all()
     serializer_class = ActorSerializer
 
-class IndexView(GetGenreAndYear ,generic.ListView):
+
+class IndexView(GetGenreAndYear, generic.ListView):
     model = Films
     template_name = 'polls/index.html'
     context_object_name = 'latest_film_list'
@@ -67,6 +91,7 @@ class IndexView(GetGenreAndYear ,generic.ListView):
 
     def get_queryset(self):
         return Films.objects.all().order_by('-rating')
+
 
 class BestView(generic.ListView):
     model = Films
@@ -81,6 +106,7 @@ class BestView(generic.ListView):
 
         return queryset
 
+
 class DetailView(generic.DetailView):
     model = Films
     template_name = 'polls/detail.html'
@@ -91,6 +117,15 @@ class DetailView(generic.DetailView):
         context['skip'] = "все"
         return context
 
+class FilmViewSet(viewsets.ModelViewSet):
+    queryset = Films.objects.all()
+    serializer_class = FilmSerializer
+
+    @action(methods=['get'], detail=False)
+    def get_random_film(self, request):
+        random_film = Films.objects.order_by('?').first()
+        serializer = self.get_serializer(random_film)
+        return Response(serializer.data)
 
 class RandomView(generic.ListView):
     template_name = "polls/random.html"
