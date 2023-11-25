@@ -1,3 +1,4 @@
 # Сервис для подборки фильмов
 # Для запуска локального сервера напишите
-# python3 manage.py runserver
+# .\myenv\Scripts\Activate.ps1
+# python manage.py runserver

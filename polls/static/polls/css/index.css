@@ -1,0 +1,51 @@
+.div_genre {
+    display: flex;
+}
+
+.genre_position {
+    display: flex;
+    flex-direction: column;
+}
+
+.li_genre {
+    margin-right: 7px;
+}
+
+.p_center {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 36px;
+}
+
+.div_year {
+    margin-top: 10px;
+}
+
+.list-page {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.list-ul {
+    display: flex;
+    font-size: 36px;
+}
+
+.page-num:not(:last-child) {
+    margin-right: 25px;
+}
+
+.selected-li {
+    color: #9B2D30;
+    margin-right: 25px;
+}
+
+a {
+    color: black;
+}
+
+a:active {
+    color: black;
+}

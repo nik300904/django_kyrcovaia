@@ -6,12 +6,14 @@
     {% load static %}
 
     <link rel="stylesheet" href="{% static 'polls/css/base.css' %}">
+    <link rel="stylesheet" href="{% static 'polls/css/index.css' %}">
     <title>{{ title }}</title>
 </head>
 <body>
     <header class="header container">
         <ul class="header__nav">
             <li class="nav__item"><a class="nav__text" href="/">Все фильмы</a></li>
+            <li class="nav__item"><a class="nav__text" href="/films/best">Лучшие фильмы</a></li>
             <li class="nav__item"><a class="nav__text" href="/films/filter">Подбор</a></li>
             <li class="nav__item"><a class="nav__text" href="/films/random">Случайный</a></li>
             <li>
