@@ -1,6 +1,7 @@
 from django.contrib import admin
 from django.utils.safestring import mark_safe
 from import_export.admin import ExportMixin
+from simple_history.admin import SimpleHistoryAdmin
 
 from .models import *
 from .resources import FilmsResource
@@ -10,7 +11,7 @@ class GenreInline(admin.TabularInline):
     extra = 1
 
 @admin.register(Films)
-class FilmsAdmin(ExportMixin, admin.ModelAdmin):
+class FilmsAdmin(ExportMixin, SimpleHistoryAdmin):
     model = Films
     filter_horizontal = ['actors', 'country', 'genres']
     fieldsets = [

@@ -1,6 +1,8 @@
 from django.db import models
 import datetime
 
+from simple_history.models import HistoricalRecords
+
 
 class Actor(models.Model):
     name = models.CharField(max_length=255, verbose_name='Имя и Фамилия')
@@ -48,6 +50,7 @@ class Genre(models.Model):
 
 
 class Films(models.Model):
+    history = HistoricalRecords()
     name = models.CharField(max_length=255, verbose_name='Название')
     genres = models.ManyToManyField(Genre, verbose_name='Жанр')
     description = models.CharField(max_length=500, null=True, verbose_name='Описание')
