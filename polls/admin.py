@@ -5,6 +5,9 @@ from import_export.admin import ExportMixin
 from .models import *
 from .resources import FilmsResource
 
+class GenreInline(admin.TabularInline):
+    model = Films.genres.through
+    extra = 1
 
 @admin.register(Films)
 class FilmsAdmin(ExportMixin, admin.ModelAdmin):
@@ -23,6 +26,7 @@ class FilmsAdmin(ExportMixin, admin.ModelAdmin):
     search_fields = ['name']
     readonly_fields = ('name', 'release_film', 'director')
     resource_class = FilmsResource
+    inlines = [GenreInline]
 
 class ImageAdmin(admin.ModelAdmin):
     raw_id_fields = ("film",)
