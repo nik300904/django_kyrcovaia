@@ -29,6 +29,17 @@ class FilmsAdmin(ExportMixin, SimpleHistoryAdmin):
     resource_class = FilmsResource
     inlines = [GenreInline]
 
+    def get_export_queryset(self, request):
+        queryset = super().get_queryset(request)
+        return queryset.filter(rating__gt=7)
+
+    def dehydrate_description(self, film):
+        return f"{film.description} (Экспортировано из системы)"
+
+    def get_director_name(self, film):
+        return film.director.full_name if film.director else 'Неизвестный'
+
+
 class ImageAdmin(admin.ModelAdmin):
     raw_id_fields = ("film",)
     list_display = ('film', 'get_photo')

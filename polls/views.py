@@ -127,6 +127,30 @@ class FilmViewSet(viewsets.ModelViewSet):
         serializer = self.get_serializer(random_film)
         return Response(serializer.data)
 
+    @action(methods=['post'], detail=True)
+    def update_rating(self, request, pk=None):
+        film = self.get_object()
+        new_rating = request.data.get('rating')
+        if new_rating:
+            try:
+                new_rating = float(new_rating)
+                if 0 <= new_rating <= 10:
+                    old_rating = film.rating
+                    film.rating = new_rating
+                    film.save()
+                    return Response({
+                        'status': 'rating updated',
+                        'film': film.name,
+                        'old_rating': old_rating,
+                        'new_rating': new_rating
+                    }, status=status.HTTP_200_OK)
+                else:
+                    return Response({'error': 'Invalid rating'}, status=status.HTTP_400_BAD_REQUEST)
+            except ValueError:
+                return Response({'error': 'Invalid data'}, status=status.HTTP_400_BAD_REQUEST)
+        else:
+            return Response({'error': 'No rating provided'}, status=status.HTTP_400_BAD_REQUEST)
+
 class RandomView(generic.ListView):
     template_name = "polls/random.html"
     context_object_name = 'films'

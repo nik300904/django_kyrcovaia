@@ -1,7 +1,11 @@
-from django.urls import path
+from django.urls import path, include
 
 from . import views
 from .views import FilmIndexAPIView, ActorAPIView, FilmGenreAPIView, FilmViewSet
+from rest_framework.routers import DefaultRouter
+
+router = DefaultRouter()
+router.register(r'films', FilmViewSet)
 
 urlpatterns = [
     path('', views.IndexView.as_view(), name='index'),
@@ -16,4 +20,5 @@ urlpatterns = [
     path('api/actorlist', ActorAPIView.as_view()),
     path('api/genre', FilmGenreAPIView.as_view()),
     path('api/random/', FilmViewSet.as_view({'get': 'get_random_film'}), name='random-film'),
+    path('', include(router.urls)),
 ]
