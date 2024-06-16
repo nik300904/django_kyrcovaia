@@ -1,0 +1,9 @@
+from polls.models import Actor, Director, Country, Genre, Films, Image
+
+# Удаление объектов
+Actor.objects.all().delete()
+Director.objects.all().delete()
+Country.objects.all().delete()
+Genre.objects.all().delete()
+Films.objects.all().delete()
+Image.objects.all().delete()

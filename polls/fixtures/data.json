@@ -1,0 +1,74 @@
+[
+    {
+        "model": "polls.Actor",
+        "pk": 1,
+        "fields": {
+            "name": "Мэттью Макконахи"
+        }
+    },
+    {
+        "model": "polls.Actor",
+        "pk": 2,
+        "fields": {
+            "name": "Энн Хэтэуэй"
+        }
+    },
+    {
+        "model": "polls.Actor",
+        "pk": 3,
+        "fields": {
+            "name": "Джессика Честейн"
+        }
+    },
+    {
+        "model": "polls.Director",
+        "pk": 1,
+        "fields": {
+            "first_name": "Кристофер",
+            "second_name": "Нолан"
+        }
+    },
+    {
+        "model": "polls.Country",
+        "pk": 1,
+        "fields": {
+            "country": "США"
+        }
+    },
+    {
+        "model": "polls.Genre",
+        "pk": 1,
+        "fields": {
+            "genre": "Научная фантастика"
+        }
+    },
+    {
+        "model": "polls.Genre",
+        "pk": 2,
+        "fields": {
+            "genre": "Приключения"
+        }
+    },
+    {
+        "model": "polls.Films",
+        "pk": 1,
+        "fields": {
+            "name": "Интерстеллар",
+            "description": "Группа исследователей использует недавно обнаруженную червоточину для преодоления ограничений путешествий на большие расстояния в космосе и спасения человечества.",
+            "release_film": "2014-11-07",
+            "rating": 8.6,
+            "actors": [1, 2, 3],
+            "director": 1,
+            "country": [1],
+            "genres": [1, 2]
+        }
+    },
+    {
+        "model": "polls.Image",
+        "pk": 1,
+        "fields": {
+            "film": 1,
+            "image": "C:\\Users\\root\\Desktop\\django_kyrcovaia\\media\\interstellar.jpg"
+        }
+    }
+]

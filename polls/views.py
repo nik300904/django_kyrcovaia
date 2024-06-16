@@ -23,6 +23,22 @@ from django_filters import rest_framework as filters
 from rest_framework import generics, status, viewsets
 from .serializers import ActorSerializer, FilmSerializer, FilmGenreSerializer
 
+from django.views.decorators.cache import cache_page
+from django.shortcuts import render
+from django.core.cache import cache
+
+@cache_page(60 * 1)
+def view_cache(request):
+    films = Films.objects.all().order_by('-rating')
+    
+    cache.set('films', films, 60 * 1)
+
+    return HttpResponse("Кэш фильмов установлен")
+
+def clear_film_cache(request):
+    cache.delete('films')
+    return HttpResponse("Кэш фильмов очищен")
+
 
 class GetGenreAndYear:
     def get_genre(self):
@@ -90,7 +106,15 @@ class IndexView(GetGenreAndYear, generic.ListView):
     paginate_by = 4
 
     def get_queryset(self):
-        return Films.objects.all().order_by('-rating')
+        films = cache.get('films')
+    
+        if not films:
+            films = list(Films.objects.all().order_by('-rating'))
+            cache.set('films', films, 60 * 1)
+
+            return films
+
+        return films
 
 
 class BestView(generic.ListView):

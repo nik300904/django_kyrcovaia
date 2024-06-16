@@ -1,0 +1,1363 @@
+Watching for file changes with StatReloader
+C:\Users\root\Desktop\django_kyrcovaia\mysite\settings.py changed, reloading.
+Watching for file changes with StatReloader
+2024-06-16 03:05:09.831690+00:00 - admin Посетил /
+2024-06-16 03:05:10.583345+00:00 - admin Посетил /
+2024-06-16 03:05:15.765029+00:00 - admin Посетил /
+2024-06-16 03:05:16.213771+00:00 - admin Посетил /films/best/
+2024-06-16 03:08:48.829472+00:00 - admin Посетил /films/best/
+2024-06-16 03:08:48.891240+00:00 - admin Посетил /media/C:/Users/root/Desktop/django_kyrcovaia/media/interstellar.jpg
+C:\Users\root\Desktop\django_kyrcovaia\polls\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\root\Desktop\django_kyrcovaia\polls\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\root\Desktop\django_kyrcovaia\polls\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\root\Desktop\django_kyrcovaia\polls\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\root\Desktop\django_kyrcovaia\polls\urls.py changed, reloading.
+Watching for file changes with StatReloader
+2024-06-16 03:10:38.458650+00:00 - admin Посетил /cache
+Internal Server Error: /cache/
+Traceback (most recent call last):
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\polls\views.py", line 34, in view_cache
+    return render(request, 'my_template.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: my_template.html
+2024-06-16 03:10:38.509413+00:00 - admin Посетил /cache/
+2024-06-16 03:10:51.858603+00:00 - admin Посетил /view_cachje
+Not Found: /view_cachje
+2024-06-16 03:10:54.355354+00:00 - admin Посетил /view_cache
+Not Found: /view_cache
+Internal Server Error: /cache/
+Traceback (most recent call last):
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\polls\views.py", line 34, in view_cache
+    return render(request, 'my_template.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: my_template.html
+2024-06-16 03:10:59.139874+00:00 - admin Посетил /cache/
+C:\Users\root\Desktop\django_kyrcovaia\polls\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /cache/
+Traceback (most recent call last):
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\polls\views.py", line 34, in view_cache
+    return render(request, 'cache.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: cache.html
+2024-06-16 03:11:14.384307+00:00 - admin Посетил /cache/
+Internal Server Error: /cache/
+Traceback (most recent call last):
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\polls\views.py", line 34, in view_cache
+    return render(request, 'cache.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: cache.html
+2024-06-16 03:11:16.302925+00:00 - admin Посетил /cache/
+C:\Users\root\Desktop\django_kyrcovaia\polls\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\root\Desktop\django_kyrcovaia\polls\views.py changed, reloading.
+Watching for file changes with StatReloader
+2024-06-16 03:12:40.258434+00:00 - admin Посетил /cache/
+2024-06-16 03:12:41.866477+00:00 - admin Посетил /cache/
+C:\Users\root\Desktop\django_kyrcovaia\polls\views.py changed, reloading.
+Watching for file changes with StatReloader
+2024-06-16 03:13:22.597068+00:00 - admin Посетил /cache/
+2024-06-16 03:13:23.151178+00:00 - admin Посетил /cache/
+2024-06-16 03:13:23.581382+00:00 - admin Посетил /cache/
+2024-06-16 03:13:23.982451+00:00 - admin Посетил /cache/
+2024-06-16 03:13:27.553919+00:00 - admin Посетил /cache/
+2024-06-16 03:13:29.261804+00:00 - admin Посетил /view_cache
+Not Found: /view_cache
+2024-06-16 03:13:31.181161+00:00 - admin Посетил /
+2024-06-16 03:13:39.067018+00:00 - admin Посетил /cache/
+C:\Users\root\Desktop\django_kyrcovaia\polls\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\root\Desktop\django_kyrcovaia\polls\views.py changed, reloading.
+Watching for file changes with StatReloader
+2024-06-16 03:15:59.656906+00:00 - admin Посетил /cache/
+2024-06-16 03:16:00.208158+00:00 - admin Посетил /cache/
+C:\Users\root\Desktop\django_kyrcovaia\polls\views.py changed, reloading.
+Watching for file changes with StatReloader
+2024-06-16 03:16:30.208436+00:00 - admin Посетил /cache/
+2024-06-16 03:16:30.872266+00:00 - admin Посетил /cache/
+2024-06-16 03:16:31.210689+00:00 - admin Посетил /cache/
+2024-06-16 03:16:35.979496+00:00 - admin Посетил /cache/
+2024-06-16 03:16:36.134306+00:00 - admin Посетил /cache/
+2024-06-16 03:16:36.292349+00:00 - admin Посетил /cache/
+2024-06-16 03:17:06.594182+00:00 - admin Посетил /cache/
+2024-06-16 03:17:17.217148+00:00 - admin Посетил /cache/
+C:\Users\root\Desktop\django_kyrcovaia\polls\views.py changed, reloading.
+Watching for file changes with StatReloader
+2024-06-16 03:17:38.852065+00:00 - admin Посетил /cache/
+2024-06-16 03:17:39.433095+00:00 - admin Посетил /cache/
+2024-06-16 03:17:39.679491+00:00 - admin Посетил /cache/
+2024-06-16 03:17:39.861715+00:00 - admin Посетил /cache/
+C:\Users\root\Desktop\django_kyrcovaia\polls\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\root\Desktop\django_kyrcovaia\polls\views.py changed, reloading.
+Watching for file changes with StatReloader
+2024-06-16 03:18:04.114599+00:00 - admin Посетил /cache/
+2024-06-16 03:18:04.591348+00:00 - admin Посетил /cache/
+2024-06-16 03:18:04.737363+00:00 - admin Посетил /cache/
+2024-06-16 03:18:04.898685+00:00 - admin Посетил /cache/
+2024-06-16 03:18:05.063016+00:00 - admin Посетил /cache/
+2024-06-16 03:18:05.203370+00:00 - admin Посетил /cache/
+2024-06-16 03:18:05.354356+00:00 - admin Посетил /cache/
+C:\Users\root\Desktop\django_kyrcovaia\polls\views.py changed, reloading.
+Watching for file changes with StatReloader
+2024-06-16 03:18:28.307636+00:00 - admin Посетил /cache/
+2024-06-16 03:18:28.891688+00:00 - admin Посетил /cache/
+2024-06-16 03:18:29.139785+00:00 - admin Посетил /cache/
+2024-06-16 03:18:29.307088+00:00 - admin Посетил /cache/
+2024-06-16 03:18:29.465406+00:00 - admin Посетил /cache/
+C:\Users\root\Desktop\django_kyrcovaia\polls\views.py changed, reloading.
+Watching for file changes with StatReloader
+2024-06-16 03:19:54.748385+00:00 - admin Посетил /cache/
+C:\Users\root\Desktop\django_kyrcovaia\polls\views.py changed, reloading.
+Watching for file changes with StatReloader
+2024-06-16 03:20:19.458798+00:00 - admin Посетил /cache/
+2024-06-16 03:20:19.963135+00:00 - admin Посетил /cache/
+2024-06-16 03:20:20.129458+00:00 - admin Посетил /cache/
+2024-06-16 03:20:25.196346+00:00 - admin Посетил /cache/
+2024-06-16 03:20:27.299473+00:00 - admin Посетил /cache/
+2024-06-16 03:20:27.473225+00:00 - admin Посетил /cache/
+2024-06-16 03:20:27.631782+00:00 - admin Посетил /cache/
+Watching for file changes with StatReloader
+2024-06-16 03:20:42.407220+00:00 - admin Посетил /cache/
+2024-06-16 03:20:42.745863+00:00 - admin Посетил /cache/
+2024-06-16 03:20:42.902475+00:00 - admin Посетил /cache/
+2024-06-16 03:20:44.963797+00:00 - admin Посетил /
+2024-06-16 03:20:45.014959+00:00 - admin Посетил /media/C:/Users/root/Desktop/django_kyrcovaia/media/interstellar.jpg
+2024-06-16 03:20:45.896090+00:00 - admin Посетил /films/filter
+2024-06-16 03:20:45.936682+00:00 - admin Посетил /films/filter/
+2024-06-16 03:20:46.503518+00:00 - admin Посетил /films/best/
+2024-06-16 03:20:47.090111+00:00 - admin Посетил /films/random
+2024-06-16 03:20:47.107903+00:00 - admin Посетил /films/random/
+2024-06-16 03:22:11.767229+00:00 - admin Посетил /cache/
+2024-06-16 03:22:12.274273+00:00 - admin Посетил /cache/
+2024-06-16 03:22:12.453744+00:00 - admin Посетил /cache/
+2024-06-16 03:22:14.626840+00:00 - admin Посетил /
+2024-06-16 03:22:16.345106+00:00 - admin Посетил /
+2024-06-16 03:22:29.149245+00:00 - admin Посетил /cache/
+2024-06-16 03:22:29.591430+00:00 - admin Посетил /cache/
+2024-06-16 03:22:29.801560+00:00 - admin Посетил /cache/
+2024-06-16 03:22:29.966225+00:00 - admin Посетил /cache/
+2024-06-16 03:22:30.136774+00:00 - admin Посетил /cache/
+2024-06-16 03:22:30.308940+00:00 - admin Посетил /cache/
+2024-06-16 03:23:26.981543+00:00 - admin Посетил /cache/
+Watching for file changes with StatReloader
+2024-06-16 03:23:37.884106+00:00 - admin Посетил /cache/
+2024-06-16 03:23:38.420546+00:00 - admin Посетил /cache/
+2024-06-16 03:23:38.615940+00:00 - admin Посетил /cache/
+2024-06-16 03:23:38.764912+00:00 - admin Посетил /cache/
+2024-06-16 03:23:38.907774+00:00 - admin Посетил /cache/
+2024-06-16 03:23:41.158716+00:00 - admin Посетил /
+2024-06-16 03:23:42.087604+00:00 - admin Посетил /
+2024-06-16 03:23:42.386792+00:00 - admin Посетил /films/best/
+2024-06-16 03:23:42.804854+00:00 - admin Посетил /films/filter/
+2024-06-16 03:23:43.208015+00:00 - admin Посетил /films/random/
+2024-06-16 03:25:11.171429+00:00 - admin Посетил /cache/
+2024-06-16 03:25:11.330315+00:00 - admin Посетил /cache/
+2024-06-16 03:25:11.534451+00:00 - admin Посетил /cache/
+2024-06-16 03:25:11.708610+00:00 - admin Посетил /cache/
+C:\Users\root\Desktop\django_kyrcovaia\polls\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\root\Desktop\django_kyrcovaia\polls\views.py changed, reloading.
+Watching for file changes with StatReloader
+2024-06-16 03:26:28.304497+00:00 - admin Посетил /cache/
+2024-06-16 03:26:28.836718+00:00 - admin Посетил /cache/
+2024-06-16 03:26:28.995853+00:00 - admin Посетил /cache/
+2024-06-16 03:26:29.169330+00:00 - admin Посетил /cache/
+2024-06-16 03:28:23.429183+00:00 - admin Посетил /cache/
+2024-06-16 03:28:24.007036+00:00 - admin Посетил /cache/
+2024-06-16 03:28:24.235338+00:00 - admin Посетил /cache/
+2024-06-16 03:28:24.391190+00:00 - admin Посетил /cache/
+2024-06-16 03:28:24.550653+00:00 - admin Посетил /cache/
+2024-06-16 03:28:26.399121+00:00 - admin Посетил /cache/
+2024-06-16 03:28:26.767821+00:00 - admin Посетил /cache/
+C:\Users\root\Desktop\django_kyrcovaia\polls\views.py changed, reloading.
+Watching for file changes with StatReloader
+2024-06-16 03:28:46.341454+00:00 - admin Посетил /cache/
+2024-06-16 03:28:47.702397+00:00 - admin Посетил /cache/
+2024-06-16 03:28:48.039886+00:00 - admin Посетил /cache/
+2024-06-16 03:28:48.210115+00:00 - admin Посетил /cache/
+2024-06-16 03:28:48.377935+00:00 - admin Посетил /cache/
+Watching for file changes with StatReloader
+2024-06-16 03:28:55.472113+00:00 - admin Посетил /cache/
+2024-06-16 03:29:01.980620+00:00 - admin Посетил /cache/
+2024-06-16 03:29:04.707304+00:00 - admin Посетил /cache/
+2024-06-16 03:29:11.685831+00:00 - admin Посетил /cache/
+2024-06-16 03:29:12.166941+00:00 - admin Посетил /cache/
+2024-06-16 03:29:12.338297+00:00 - admin Посетил /cache/
+C:\Users\root\Desktop\django_kyrcovaia\polls\views.py changed, reloading.
+Watching for file changes with StatReloader
+2024-06-16 03:29:38.610654+00:00 - admin Посетил /cache/
+2024-06-16 03:29:39.326914+00:00 - admin Посетил /cache/
+2024-06-16 03:29:39.700013+00:00 - admin Посетил /cache/
+2024-06-16 03:29:50.076385+00:00 - admin Посетил /cache/
+C:\Users\root\Desktop\django_kyrcovaia\polls\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\root\Desktop\django_kyrcovaia\polls\views.py changed, reloading.
+Watching for file changes with StatReloader
+2024-06-16 03:30:25.965322+00:00 - admin Посетил /cache/
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 154, in get
+    self.object_list = self.get_queryset()
+                       ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\polls\views.py", line 116, in get_queryset
+    return films
+           ^^^^^
+NameError: name 'films' is not defined
+2024-06-16 03:30:27.649206+00:00 - admin Посетил /
+C:\Users\root\Desktop\django_kyrcovaia\polls\views.py changed, reloading.
+Watching for file changes with StatReloader
+2024-06-16 03:31:33.999573+00:00 - admin Посетил /
+2024-06-16 03:31:34.133231+00:00 - admin Посетил /media/C:/Users/root/Desktop/django_kyrcovaia/media/interstellar.jpg
+2024-06-16 03:31:35.219331+00:00 - admin Посетил /
+2024-06-16 03:31:38.602040+00:00 - admin Посетил /cache/
+2024-06-16 03:31:40.418775+00:00 - admin Посетил /cache/
+2024-06-16 03:31:41.691365+00:00 - admin Посетил /
+2024-06-16 03:31:41.900440+00:00 - admin Посетил /
+C:\Users\root\Desktop\django_kyrcovaia\polls\views.py changed, reloading.
+Watching for file changes with StatReloader
+2024-06-16 03:31:58.571431+00:00 - admin Посетил /
+2024-06-16 03:31:59.199635+00:00 - admin Посетил /
+2024-06-16 03:31:59.571744+00:00 - admin Посетил /
+2024-06-16 03:32:07.928123+00:00 - admin Посетил /
+2024-06-16 03:32:08.267928+00:00 - admin Посетил /
+2024-06-16 03:32:08.692647+00:00 - admin Посетил /
+C:\Users\root\Desktop\django_kyrcovaia\polls\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\root\Desktop\django_kyrcovaia\polls\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\root\Desktop\django_kyrcovaia\polls\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\root\Desktop\django_kyrcovaia\polls\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\root\Desktop\django_kyrcovaia\polls\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\root\Desktop\django_kyrcovaia\polls\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\root\Desktop\django_kyrcovaia\polls\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\root\Desktop\django_kyrcovaia\polls\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\root\Desktop\django_kyrcovaia\polls\urls.py changed, reloading.
+Watching for file changes with StatReloader
+2024-06-16 03:35:13.510839+00:00 - admin Посетил /
+2024-06-16 03:35:14.237316+00:00 - admin Посетил /films/best/
+2024-06-16 03:35:14.667659+00:00 - admin Посетил /
+2024-06-16 03:35:15.108835+00:00 - admin Посетил /
+2024-06-16 03:35:15.336387+00:00 - admin Посетил /
+2024-06-16 03:35:30.144722+00:00 - admin Посетил /cache/
+2024-06-16 03:35:32.811540+00:00 - admin Посетил /cache/clear
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 174, in get
+    context = self.get_context_data()
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 128, in get_context_data
+    paginator, page, queryset, is_paginated = self.paginate_queryset(
+                                              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 73, in paginate_queryset
+    page = paginator.page(page_number)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 72, in page
+    number = self.validate_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 53, in validate_number
+    if number > self.num_pages:
+                ^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 99, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+       ^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 94, in count
+    return len(self.object_list)
+           ^^^^^^^^^^^^^^^^^^^^^
+TypeError: object of type 'NoneType' has no len()
+2024-06-16 03:35:35.076575+00:00 - admin Посетил /
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 174, in get
+    context = self.get_context_data()
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 128, in get_context_data
+    paginator, page, queryset, is_paginated = self.paginate_queryset(
+                                              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 73, in paginate_queryset
+    page = paginator.page(page_number)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 72, in page
+    number = self.validate_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 53, in validate_number
+    if number > self.num_pages:
+                ^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 99, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+       ^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 94, in count
+    return len(self.object_list)
+           ^^^^^^^^^^^^^^^^^^^^^
+TypeError: object of type 'NoneType' has no len()
+2024-06-16 03:35:55.292024+00:00 - admin Посетил /
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 174, in get
+    context = self.get_context_data()
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 128, in get_context_data
+    paginator, page, queryset, is_paginated = self.paginate_queryset(
+                                              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 73, in paginate_queryset
+    page = paginator.page(page_number)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 72, in page
+    number = self.validate_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 53, in validate_number
+    if number > self.num_pages:
+                ^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 99, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+       ^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 94, in count
+    return len(self.object_list)
+           ^^^^^^^^^^^^^^^^^^^^^
+TypeError: object of type 'NoneType' has no len()
+2024-06-16 03:35:56.345077+00:00 - admin Посетил /
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 174, in get
+    context = self.get_context_data()
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 128, in get_context_data
+    paginator, page, queryset, is_paginated = self.paginate_queryset(
+                                              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 73, in paginate_queryset
+    page = paginator.page(page_number)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 72, in page
+    number = self.validate_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 53, in validate_number
+    if number > self.num_pages:
+                ^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 99, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+       ^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 94, in count
+    return len(self.object_list)
+           ^^^^^^^^^^^^^^^^^^^^^
+TypeError: object of type 'NoneType' has no len()
+2024-06-16 03:35:56.814159+00:00 - admin Посетил /
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 174, in get
+    context = self.get_context_data()
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 128, in get_context_data
+    paginator, page, queryset, is_paginated = self.paginate_queryset(
+                                              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 73, in paginate_queryset
+    page = paginator.page(page_number)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 72, in page
+    number = self.validate_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 53, in validate_number
+    if number > self.num_pages:
+                ^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 99, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+       ^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 94, in count
+    return len(self.object_list)
+           ^^^^^^^^^^^^^^^^^^^^^
+TypeError: object of type 'NoneType' has no len()
+2024-06-16 03:35:57.118680+00:00 - admin Посетил /
+C:\Users\root\Desktop\django_kyrcovaia\polls\views.py changed, reloading.
+Watching for file changes with StatReloader
+2024-06-16 03:36:02.684763+00:00 - admin Посетил /
+2024-06-16 03:36:04.153785+00:00 - admin Посетил /
+2024-06-16 03:36:07.503565+00:00 - admin Посетил /cache/clear
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 174, in get
+    context = self.get_context_data()
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 128, in get_context_data
+    paginator, page, queryset, is_paginated = self.paginate_queryset(
+                                              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 73, in paginate_queryset
+    page = paginator.page(page_number)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 72, in page
+    number = self.validate_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 53, in validate_number
+    if number > self.num_pages:
+                ^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 99, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+       ^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 94, in count
+    return len(self.object_list)
+           ^^^^^^^^^^^^^^^^^^^^^
+TypeError: object of type 'NoneType' has no len()
+2024-06-16 03:36:10.881321+00:00 - admin Посетил /
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 174, in get
+    context = self.get_context_data()
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 128, in get_context_data
+    paginator, page, queryset, is_paginated = self.paginate_queryset(
+                                              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 73, in paginate_queryset
+    page = paginator.page(page_number)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 72, in page
+    number = self.validate_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 53, in validate_number
+    if number > self.num_pages:
+                ^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 99, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+       ^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 94, in count
+    return len(self.object_list)
+           ^^^^^^^^^^^^^^^^^^^^^
+TypeError: object of type 'NoneType' has no len()
+2024-06-16 03:36:10.969599+00:00 - admin Посетил /
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 174, in get
+    context = self.get_context_data()
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 128, in get_context_data
+    paginator, page, queryset, is_paginated = self.paginate_queryset(
+                                              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 73, in paginate_queryset
+    page = paginator.page(page_number)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 72, in page
+    number = self.validate_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 53, in validate_number
+    if number > self.num_pages:
+                ^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 99, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+       ^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 94, in count
+    return len(self.object_list)
+           ^^^^^^^^^^^^^^^^^^^^^
+TypeError: object of type 'NoneType' has no len()
+2024-06-16 03:36:12.219302+00:00 - admin Посетил /
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 174, in get
+    context = self.get_context_data()
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 128, in get_context_data
+    paginator, page, queryset, is_paginated = self.paginate_queryset(
+                                              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 73, in paginate_queryset
+    page = paginator.page(page_number)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 72, in page
+    number = self.validate_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 53, in validate_number
+    if number > self.num_pages:
+                ^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 99, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+       ^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 94, in count
+    return len(self.object_list)
+           ^^^^^^^^^^^^^^^^^^^^^
+TypeError: object of type 'NoneType' has no len()
+2024-06-16 03:36:17.055490+00:00 - admin Посетил /
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 174, in get
+    context = self.get_context_data()
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 128, in get_context_data
+    paginator, page, queryset, is_paginated = self.paginate_queryset(
+                                              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 73, in paginate_queryset
+    page = paginator.page(page_number)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 72, in page
+    number = self.validate_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 53, in validate_number
+    if number > self.num_pages:
+                ^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 99, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+       ^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 94, in count
+    return len(self.object_list)
+           ^^^^^^^^^^^^^^^^^^^^^
+TypeError: object of type 'NoneType' has no len()
+2024-06-16 03:36:17.140499+00:00 - admin Посетил /
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 174, in get
+    context = self.get_context_data()
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 128, in get_context_data
+    paginator, page, queryset, is_paginated = self.paginate_queryset(
+                                              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 73, in paginate_queryset
+    page = paginator.page(page_number)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 72, in page
+    number = self.validate_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 53, in validate_number
+    if number > self.num_pages:
+                ^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 99, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+       ^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 94, in count
+    return len(self.object_list)
+           ^^^^^^^^^^^^^^^^^^^^^
+TypeError: object of type 'NoneType' has no len()
+2024-06-16 03:36:19.238373+00:00 - admin Посетил /
+2024-06-16 03:36:22.523966+00:00 - admin Посетил /cache/
+2024-06-16 03:36:22.967057+00:00 - admin Посетил /cache/
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 174, in get
+    context = self.get_context_data()
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 128, in get_context_data
+    paginator, page, queryset, is_paginated = self.paginate_queryset(
+                                              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 73, in paginate_queryset
+    page = paginator.page(page_number)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 72, in page
+    number = self.validate_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 53, in validate_number
+    if number > self.num_pages:
+                ^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 99, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+       ^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 94, in count
+    return len(self.object_list)
+           ^^^^^^^^^^^^^^^^^^^^^
+TypeError: object of type 'NoneType' has no len()
+2024-06-16 03:36:25.728275+00:00 - admin Посетил /
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 174, in get
+    context = self.get_context_data()
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 128, in get_context_data
+    paginator, page, queryset, is_paginated = self.paginate_queryset(
+                                              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 73, in paginate_queryset
+    page = paginator.page(page_number)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 72, in page
+    number = self.validate_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 53, in validate_number
+    if number > self.num_pages:
+                ^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 99, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+       ^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 94, in count
+    return len(self.object_list)
+           ^^^^^^^^^^^^^^^^^^^^^
+TypeError: object of type 'NoneType' has no len()
+2024-06-16 03:36:25.828905+00:00 - admin Посетил /
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 174, in get
+    context = self.get_context_data()
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 128, in get_context_data
+    paginator, page, queryset, is_paginated = self.paginate_queryset(
+                                              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 73, in paginate_queryset
+    page = paginator.page(page_number)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 72, in page
+    number = self.validate_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 53, in validate_number
+    if number > self.num_pages:
+                ^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 99, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+       ^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 94, in count
+    return len(self.object_list)
+           ^^^^^^^^^^^^^^^^^^^^^
+TypeError: object of type 'NoneType' has no len()
+2024-06-16 03:36:27.068994+00:00 - admin Посетил /
+C:\Users\root\Desktop\django_kyrcovaia\polls\views.py changed, reloading.
+Watching for file changes with StatReloader
+2024-06-16 03:36:40.576190+00:00 - admin Посетил /
+2024-06-16 03:36:41.761287+00:00 - admin Посетил /
+2024-06-16 03:36:42.161121+00:00 - admin Посетил /films/best/
+2024-06-16 03:36:43.225343+00:00 - admin Посетил /films/filter/
+2024-06-16 03:36:44.453567+00:00 - admin Посетил /films/best/
+2024-06-16 03:36:44.854679+00:00 - admin Посетил /
+C:\Users\root\Desktop\django_kyrcovaia\polls\views.py changed, reloading.
+Watching for file changes with StatReloader
+2024-06-16 03:38:13.300678+00:00 - admin Посетил /
+2024-06-16 03:38:14.496549+00:00 - admin Посетил /
+2024-06-16 03:38:16.384260+00:00 - admin Посетил /cache/
+2024-06-16 03:38:17.705408+00:00 - admin Посетил /cache/clear
+2024-06-16 03:38:20.055107+00:00 - admin Посетил /
+2024-06-16 03:38:21.219595+00:00 - admin Посетил /
+2024-06-16 03:38:21.881496+00:00 - admin Посетил /films/filter/
+2024-06-16 03:38:22.528876+00:00 - admin Посетил /
+C:\Users\root\Desktop\django_kyrcovaia\polls\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 154, in get
+    self.object_list = self.get_queryset()
+                       ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\polls\views.py", line 122, in get_queryset
+    return new_films
+           ^^^^^^^^^
+NameError: name 'new_films' is not defined
+2024-06-16 03:38:31.438560+00:00 - admin Посетил /
+C:\Users\root\Desktop\django_kyrcovaia\polls\views.py changed, reloading.
+Watching for file changes with StatReloader
+2024-06-16 03:38:39.206197+00:00 - admin Посетил /
+2024-06-16 03:38:39.971697+00:00 - admin Посетил /
+2024-06-16 03:38:47.679835+00:00 - admin Посетил /cache/clear
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 174, in get
+    context = self.get_context_data()
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 128, in get_context_data
+    paginator, page, queryset, is_paginated = self.paginate_queryset(
+                                              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 73, in paginate_queryset
+    page = paginator.page(page_number)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 72, in page
+    number = self.validate_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 53, in validate_number
+    if number > self.num_pages:
+                ^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 99, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+       ^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 94, in count
+    return len(self.object_list)
+           ^^^^^^^^^^^^^^^^^^^^^
+TypeError: object of type 'NoneType' has no len()
+2024-06-16 03:38:50.394423+00:00 - admin Посетил /
+2024-06-16 03:38:55.311457+00:00 - admin Посетил /cache/clear
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 174, in get
+    context = self.get_context_data()
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 128, in get_context_data
+    paginator, page, queryset, is_paginated = self.paginate_queryset(
+                                              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 73, in paginate_queryset
+    page = paginator.page(page_number)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 72, in page
+    number = self.validate_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 53, in validate_number
+    if number > self.num_pages:
+                ^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 99, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+       ^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 94, in count
+    return len(self.object_list)
+           ^^^^^^^^^^^^^^^^^^^^^
+TypeError: object of type 'NoneType' has no len()
+2024-06-16 03:38:57.549085+00:00 - admin Посетил /
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 174, in get
+    context = self.get_context_data()
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 128, in get_context_data
+    paginator, page, queryset, is_paginated = self.paginate_queryset(
+                                              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 73, in paginate_queryset
+    page = paginator.page(page_number)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 72, in page
+    number = self.validate_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 53, in validate_number
+    if number > self.num_pages:
+                ^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 99, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+       ^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 94, in count
+    return len(self.object_list)
+           ^^^^^^^^^^^^^^^^^^^^^
+TypeError: object of type 'NoneType' has no len()
+2024-06-16 03:38:57.633626+00:00 - admin Посетил /
+C:\Users\root\Desktop\django_kyrcovaia\polls\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 174, in get
+    context = self.get_context_data()
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 128, in get_context_data
+    paginator, page, queryset, is_paginated = self.paginate_queryset(
+                                              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 73, in paginate_queryset
+    page = paginator.page(page_number)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 72, in page
+    number = self.validate_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 53, in validate_number
+    if number > self.num_pages:
+                ^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 99, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+       ^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 94, in count
+    return len(self.object_list)
+           ^^^^^^^^^^^^^^^^^^^^^
+TypeError: object of type 'HttpResponse' has no len()
+2024-06-16 03:39:34.589486+00:00 - admin Посетил /
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 174, in get
+    context = self.get_context_data()
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 128, in get_context_data
+    paginator, page, queryset, is_paginated = self.paginate_queryset(
+                                              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 73, in paginate_queryset
+    page = paginator.page(page_number)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 72, in page
+    number = self.validate_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 53, in validate_number
+    if number > self.num_pages:
+                ^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 99, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+       ^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 94, in count
+    return len(self.object_list)
+           ^^^^^^^^^^^^^^^^^^^^^
+TypeError: object of type 'HttpResponse' has no len()
+2024-06-16 03:39:35.517189+00:00 - admin Посетил /
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 174, in get
+    context = self.get_context_data()
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 128, in get_context_data
+    paginator, page, queryset, is_paginated = self.paginate_queryset(
+                                              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 73, in paginate_queryset
+    page = paginator.page(page_number)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 72, in page
+    number = self.validate_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 53, in validate_number
+    if number > self.num_pages:
+                ^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 99, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+       ^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 94, in count
+    return len(self.object_list)
+           ^^^^^^^^^^^^^^^^^^^^^
+TypeError: object of type 'HttpResponse' has no len()
+2024-06-16 03:39:36.143219+00:00 - admin Посетил /
+C:\Users\root\Desktop\django_kyrcovaia\polls\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 174, in get
+    context = self.get_context_data()
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 128, in get_context_data
+    paginator, page, queryset, is_paginated = self.paginate_queryset(
+                                              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 73, in paginate_queryset
+    page = paginator.page(page_number)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 72, in page
+    number = self.validate_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 53, in validate_number
+    if number > self.num_pages:
+                ^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 99, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+       ^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 94, in count
+    return len(self.object_list)
+           ^^^^^^^^^^^^^^^^^^^^^
+TypeError: object of type 'NoneType' has no len()
+2024-06-16 03:39:43.149026+00:00 - admin Посетил /
+C:\Users\root\Desktop\django_kyrcovaia\polls\views.py changed, reloading.
+Watching for file changes with StatReloader
+2024-06-16 03:39:51.412001+00:00 - admin Посетил /
+2024-06-16 03:39:57.085268+00:00 - admin Посетил /cache/
+2024-06-16 03:39:57.666409+00:00 - admin Посетил /cache/clear
+C:\Users\root\Desktop\django_kyrcovaia\polls\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\root\Desktop\django_kyrcovaia\polls\views.py changed, reloading.
+Watching for file changes with StatReloader
+2024-06-16 03:41:15.458411+00:00 - admin Посетил /cache/clear
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 174, in get
+    context = self.get_context_data()
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 128, in get_context_data
+    paginator, page, queryset, is_paginated = self.paginate_queryset(
+                                              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\views\generic\list.py", line 73, in paginate_queryset
+    page = paginator.page(page_number)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 72, in page
+    number = self.validate_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 53, in validate_number
+    if number > self.num_pages:
+                ^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 99, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+       ^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\root\Desktop\django_kyrcovaia\myenv\Lib\site-packages\django\core\paginator.py", line 94, in count
+    return len(self.object_list)
+           ^^^^^^^^^^^^^^^^^^^^^
+TypeError: object of type 'NoneType' has no len()
+2024-06-16 03:41:17.372258+00:00 - admin Посетил /
+C:\Users\root\Desktop\django_kyrcovaia\polls\views.py changed, reloading.
+Watching for file changes with StatReloader
+2024-06-16 03:42:07.839658+00:00 - admin Посетил /
+2024-06-16 03:42:10.163398+00:00 - admin Посетил /
+2024-06-16 03:42:10.677383+00:00 - admin Посетил /
+2024-06-16 03:42:14.218114+00:00 - admin Посетил /cache/clear
+2024-06-16 03:42:18.470132+00:00 - admin Посетил /
+2024-06-16 03:42:19.659473+00:00 - admin Посетил /
+2024-06-16 03:42:20.349498+00:00 - admin Посетил /films/filter/
+2024-06-16 03:42:20.799333+00:00 - admin Посетил /films/random/
+2024-06-16 03:42:21.968072+00:00 - admin Посетил /
+2024-06-16 03:46:53.124754+00:00 - Аноним Посетил /version
+Not Found: /version
+2024-06-16 03:46:53.134386+00:00 - Аноним Посетил /version
+Not Found: /version
